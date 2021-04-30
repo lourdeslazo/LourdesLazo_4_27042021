@@ -685,6 +685,14 @@ p {
   font-size: 14px;
 }
 
+.citations {
+  font-size: 22px;
+}
+
+.citations-it {
+  font-style: italic;
+}
+
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto auto auto auto;
