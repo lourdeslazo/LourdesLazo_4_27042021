@@ -736,7 +736,8 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: white !important;
+  font-size: 32px;
 }
 
 h4 {
@@ -831,7 +832,7 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.png");
 }
 
 .bg-presentation {
