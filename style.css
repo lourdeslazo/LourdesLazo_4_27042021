@@ -81,6 +81,7 @@ body {
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
+  font-weight: 700;
   color: #6a040f;
 }
 
@@ -610,12 +611,13 @@ label,
 }
 
 #bold-link {
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: underline !important;
   color: #dc2f02;
 }
 
 #bold-link:hover {
+  font-weight: 900;
   color: #6a040f;
 }
 
@@ -780,8 +782,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-  color: #364577 !important;
-  border-color: #364577 !important;
+  color: #dc2f02 !important;
+  border-color: #dc2f02 !important;
 }
 
 .bg-dots-bg {
@@ -797,7 +799,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.png");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
