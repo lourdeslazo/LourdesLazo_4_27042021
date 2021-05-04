@@ -693,9 +693,7 @@ h2 {
 }
 
 .med-width-whitespace {
-  max-width: 800px;
   margin: auto auto auto auto;
-  box-shadow: 0px 0px 0px #000000;
 }
 
 h4 {
@@ -727,6 +725,8 @@ h4 {
 .black-background {
   background-color: rgba(255 255 255 / 40%);
   padding: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .bgc-dark-slate-blue {
@@ -790,8 +790,8 @@ h4 {
 
 @media (max-width: 1024px) {
   .bloc {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .bloc.full-width-bloc,
   .bloc-tile-2.full-width-bloc .container,
@@ -799,6 +799,10 @@ h4 {
   .bloc-tile-4.full-width-bloc .container {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .container {
+    width: 100%;
   }
 }
 
@@ -835,10 +839,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -936,10 +937,7 @@ h4 {
     float: left;
     margin-left: 10px;
   }
-  .bloc {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
   .bloc-xxl,
   .bloc-xl,
   .bloc-lg {
@@ -988,6 +986,15 @@ h4 {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+
+  .tight-width-whitespace {
+    width: 320px;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+    float: left;
   }
 }
 
