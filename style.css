@@ -650,6 +650,11 @@ p {
   font-style: italic;
 }
 
+.citations-space {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto;
@@ -713,8 +718,8 @@ h4 {
 .black-background {
   background-color: rgba(255 255 255 / 40%);
   padding: 40px;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 120px;
+  margin-left: 120px;
 }
 
 .bgc-dark-slate-blue {
