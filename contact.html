@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -91,36 +91,40 @@
         <div class="container bloc-lg">
           <div>
             <div class="col-sm-6">
-              <form
-                id="form_1"
-                novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-              >
+              <form id="form_1">
                 <div class="form-group">
-                  <label> Nom </label>
-                  <input id="name" class="form-control" required />
+                  <label for="name"> Nom </label>
+                  <input
+                    id="name"
+                    class="form-control"
+                    required
+                    placeholder="Entrez votre nom et prénom"
+                  />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
                     type="email"
                     required
+                    placeholder="Entrez une adresse email valide"
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504">
+                    Comment nous avez-vous connu ?
+                  </label>
                   <input
                     class="form-control"
                     type="email"
                     required
                     id="input_504"
+                    placeholder="Racontez-nous"
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -129,6 +133,7 @@
                     rows="4"
                     cols="50"
                     required
+                    placeholder="Ecrivez votre message"
                   ></textarea>
                 </div>
                 <button
