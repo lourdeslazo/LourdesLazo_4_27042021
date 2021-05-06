@@ -27,7 +27,7 @@
     <!-- Principal conteneur -->
     <div class="page-container">
       <!-- bloc-0 -->
-      <div class="bloc">
+      <div class="bloc" role="banner">
         <div class="container bloc-sm">
           <nav class="navbar">
             <div class="navbar-header">
@@ -36,6 +36,7 @@
                   src="img/la-chouette-agence.png"
                   alt="Logotipo La Chouette Agence"
                   height="40"
+                  role="button"
               /></a>
               <button
                 id="nav-toggle"
@@ -49,13 +50,17 @@
                 ><span class="icon-bar"></span>
               </button>
             </div>
-            <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-              <ul class="site-navigation nav navbar-nav">
-                <li>
+            <div
+              class="collapse navbar-collapse navbar-1 special-dropdown-nav"
+              aria-label="main navigation"
+              role="navigation"
+            >
+              <ul class="site-navigation nav navbar-nav" role="menu">
+                <li role="menuitem">
                   <a href="index.html">Accueil</a>
                 </li>
 
-                <li>
+                <li role="menuitem">
                   <a href="contact.html">Contact</a>
                 </li>
               </ul>
@@ -66,7 +71,11 @@
       <!-- bloc-0 END -->
 
       <!-- bloc-1-presentation -->
-      <div class="bloc bg-banniere bg-t-edge b-parallax">
+      <div
+        class="bloc bg-banniere bg-t-edge b-parallax"
+        role="region"
+        aria-label="presentation"
+      >
         <div class="container bloc-lg">
           <div class="tight-width-whitespace">
             <div class="col-sm-12">
@@ -76,7 +85,7 @@
                 alt="Logotipo agence"
               />
               <h1 class="text-center">La chouette agence.</h1>
-              <div class="text-center">
+              <div class="text-center" role="button">
                 <a
                   href="contact.html"
                   class="btn btn-lg btn-clean cta-hero btn-atomic-tangerine"
@@ -90,7 +99,12 @@
       <!-- bloc-1-presentation END -->
 
       <!-- bloc-2-services -->
-      <div class="bloc" id="bloc-2-services">
+      <div
+        class="bloc"
+        id="bloc-2-services"
+        role="region"
+        aria-label="services"
+      >
         <div class="bloc-md">
           <div>
             <div class="col-sm-12 text-center citations-space">
@@ -157,7 +171,11 @@
       <!-- bloc-2-services END -->
 
       <!-- bloc-3-what-i-do -->
-      <div class="bloc bg-presentation d-bloc b-parallax">
+      <div
+        class="bloc bg-presentation d-bloc b-parallax"
+        role="region"
+        aria-label="ce que nous faisons"
+      >
         <div class="container bloc-lg">
           <div class="row black-background">
             <div class="col-sm-12">
@@ -174,7 +192,7 @@
                 votre site, n’hésitez pas à nous contacter. Nous travaillerons
                 ensemble pour créer des sites beau et bien structurés, qui
                 seront facilement trouvable sur les moteurs de recherche.
-                <br /><br /><a href="contact.html" id="bold-link"
+                <br /><br /><a href="contact.html" id="bold-link" role="button"
                   >Contactez notre équipe</a
                 ><br />
               </p>
@@ -185,7 +203,12 @@
       <!-- bloc-3-what-i-do END -->
 
       <!-- bloc-4-portfolio -->
-      <div class="bloc bg-repeat" id="bloc-4-portfolio">
+      <div
+        class="bloc bg-repeat"
+        id="bloc-4-portfolio"
+        role="region"
+        aria-label="portfolio"
+      >
         <div class="container bloc-lg">
           <div>
             <div class="col-sm-12 text-center">
@@ -285,14 +308,19 @@
       <!-- bloc-4-portfolio END -->
 
       <!-- bloc-5-cta -->
-      <div class="bloc bg-banniere" id="bloc-5-cta">
+      <div
+        class="bloc bg-banniere"
+        id="bloc-5-cta"
+        role="region"
+        aria-label="contactez-nous"
+      >
         <div class="container bloc-lg">
           <div>
             <p class="citations citations-large white text-center">
               Prêt pour redonner vie à votre projet ?<br />Contactez notre
               équipe !
             </p>
-            <div class="col-sm-12 text-center">
+            <div class="col-sm-12 text-center" role="button">
               <a
                 href="contact.html"
                 class="btn btn-atomic-tangerine btn-clean btn-lg cta-hero"
@@ -305,14 +333,21 @@
       <!-- bloc-5-cta END -->
 
       <!-- Footer - bloc-8 -->
-      <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+      <div
+        class="bloc bgc-atomic-tangerine d-bloc"
+        id="bloc-8"
+        role="contentinfo"
+      >
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
               <p class="text-center white">
                 La chouette agence - Agence web basée à Lyon.<br />
               </p>
-              <div class="row row-no-gutters social">
+              <div
+                class="row row-no-gutters social"
+                aria-label="social media navigation"
+              >
                 <div class="col-sm-3">
                   <div class="text-center">
                     <a
@@ -320,6 +355,7 @@
                       target="_blank"
                       class="social"
                       aria-label="Twitter"
+                      role="button"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
@@ -331,6 +367,7 @@
                       target="_blank"
                       class="social"
                       aria-label="Facebook"
+                      role="button"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
@@ -342,6 +379,7 @@
                       target="_blank"
                       class="social"
                       aria-label="Dribbble"
+                      role="button"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
@@ -353,6 +391,7 @@
                       target="_blank"
                       class="social"
                       aria-label="Instagram"
+                      role="button"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
