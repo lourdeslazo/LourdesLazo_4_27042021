@@ -202,7 +202,6 @@ a:hover {
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
-.d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc h4 a,
@@ -219,7 +218,6 @@ a:hover {
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
@@ -304,10 +302,6 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
-}
-
-#bloc-1-hero h1 {
-  font-size: 32px;
 }
 
 @media (min-width: 768px) {
@@ -612,20 +606,13 @@ label,
 h1 {
   font-family: "helvetica";
   font-weight: 400;
+
   color: white !important;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 li {
   list-style: none;
-}
-
-.hero-bloc-text {
-  font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-  font-size: 36px;
 }
 
 .statement-bloc-text {
@@ -655,14 +642,13 @@ p {
   padding-right: 140px;
 }
 
+.citations-large {
+  font-size: 40px;
+}
+
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto;
-}
-
-.h1 {
-  font-size: 20px;
-  font-family: "Open Sans";
 }
 
 .cta-hero {
