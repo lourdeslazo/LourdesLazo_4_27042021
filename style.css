@@ -395,11 +395,8 @@ nav .caret {
   margin: 0 0 5px 5px;
 }
 
-.btn-d,
-.btn-d:hover,
 .btn-d:focus {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.3);
+  border: 1px #000 solid;
 }
 
 button {
@@ -1020,6 +1017,10 @@ h4 {
   .adresse {
     margin-left: 0;
     color: #333333;
+  }
+
+  .bg-banniere {
+    background-image: url("img/la-chouette-agence-banniere-sm.jpg");
   }
 
   .bloc-mob-center-text {
