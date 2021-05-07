@@ -603,6 +603,17 @@ label,
   color: #6a040f;
 }
 
+#bold-link-c {
+  font-weight: 700;
+  text-decoration: underline !important;
+  color: #dc2f02;
+}
+
+#bold-link-c:hover {
+  font-weight: 900;
+  color: #6a040f;
+}
+
 h1 {
   font-family: "helvetica";
   font-weight: 400;
@@ -644,6 +655,11 @@ p {
 
 .citations-large {
   font-size: 40px;
+}
+
+.adresse {
+  margin-left: 60px;
+  color: #333333;
 }
 
 .tight-width-whitespace {
@@ -991,17 +1007,29 @@ h4 {
   .portfolio-row {
     margin-top: 50px;
   }
+
+  .service-pg {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .portfolio-pg {
+    margin-bottom: 50px;
+  }
+
+  .adresse {
+    margin-left: 0;
+    color: #333333;
+  }
+
+  .bloc-mob-center-text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .bloc-mob-center-text {
-    text-align: center;
   }
 }
