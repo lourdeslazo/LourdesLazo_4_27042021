@@ -860,7 +860,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  h1,
+
   h2,
   h3,
   h4,
@@ -1023,14 +1023,11 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere-sm.jpg");
   }
 
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-sm.jpg");
+  }
+
   .bloc-mob-center-text {
     text-align: center;
-  }
-}
-
-@media (max-width: 400px) {
-  .bloc {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
